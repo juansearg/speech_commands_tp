@@ -1,2 +1,17 @@
 # speech_commands_tp
 This is an another aproach of deep learning applied to recognize speechs commands from audio.
+
+```
+@article{speechcommandsv2,
+   author = {{Warden}, P.},
+    title = "{Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1804.03209},
+ primaryClass = "cs.CL",
+ keywords = {Computer Science - Computation and Language, Computer Science - Human-Computer Interaction},
+     year = 2018,
+    month = apr,
+    url = {https://arxiv.org/abs/1804.03209},
+}
+```
