@@ -2,7 +2,7 @@
 This is an another aproach of deep learning applied to recognize speechs commands from audio.
 
 
-
+# Dataset citation
 @article{speechcommandsv2,
    author = {{Warden}, P.},
     title = "{Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition}",
