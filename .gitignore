@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# --- Entornos de desarrollo e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Dataset Speech Commands y audios ---
+# (Ajusta los nombres si tus carpetas se llaman diferente)
+data/
+*.wav
+*.mp3
+
+# --- Modelos entrenados y Checkpoints ---
+*.pt
+*.pth
+*.h5
+*.pkl
+checkpoints/
+runs/
+logs/
