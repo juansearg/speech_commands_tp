@@ -1,0 +1,11 @@
+{
+  "run_id": "logreg_basico",
+  "modelo": "logreg",
+  "params": 560,
+  "seg": 6.137094020843506,
+  "dev_f1_macro": 0.2408651853325114,
+  "dev_f1_weighted": 0.25038291752153363,
+  "dev_accuracy": 0.2598507039591798,
+  "dev_accuracy_palabras": 0.2598507039591798,
+  "features": "basicas"
+}

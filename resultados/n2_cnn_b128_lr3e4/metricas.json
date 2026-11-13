@@ -1,0 +1,14 @@
+{
+  "run_id": "n2_cnn_b128_lr3e4",
+  "modelo": "n2_cnn",
+  "params": 943204,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "seg": 1387.397978067398,
+  "epocas_entrenadas": 31,
+  "dev_f1_macro": 0.8265933508829286,
+  "dev_f1_weighted": 0.8376651807492193,
+  "dev_accuracy": 0.8384201077199281,
+  "dev_accuracy_palabras": 0.8384201077199281
+}

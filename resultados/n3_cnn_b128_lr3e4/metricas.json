@@ -1,0 +1,14 @@
+{
+  "run_id": "n3_cnn_b128_lr3e4",
+  "modelo": "n3_cnn",
+  "params": 943540,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "seg": 1983.3061981201172,
+  "epocas_entrenadas": 42,
+  "dev_f1_macro": 0.11438889080386595,
+  "dev_f1_weighted": 0.14770478380466018,
+  "dev_accuracy": 0.21132949069262025,
+  "dev_accuracy_palabras": 0.21132949069262025
+}

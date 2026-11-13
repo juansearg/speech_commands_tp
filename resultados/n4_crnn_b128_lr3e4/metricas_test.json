@@ -1,0 +1,18 @@
+{
+  "run_id": "n4_crnn_b128_lr3e4",
+  "modelo": "n4_crnn",
+  "params": 413172,
+  "seg": 0.0,
+  "dev_f1_macro": 0.9199683124646323,
+  "dev_f1_weighted": 0.925926909201922,
+  "dev_accuracy": 0.9260134177454408,
+  "dev_accuracy_palabras": 0.9260134177454408,
+  "test_f1_macro": 0.8321276828081754,
+  "test_f1_weighted": 0.9506170808790079,
+  "test_accuracy": 0.8989775051124744,
+  "test_accuracy_palabras": 0.9808121374386435,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "epocas_entrenadas": null
+}

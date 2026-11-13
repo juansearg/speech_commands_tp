@@ -1,0 +1,14 @@
+{
+  "run_id": "n1_cnn_min_b128_lr3e4",
+  "modelo": "n1_cnn_min",
+  "params": 1106036,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "seg": 711.4675199985504,
+  "epocas_entrenadas": 15,
+  "dev_f1_macro": 0.49247968535539216,
+  "dev_f1_weighted": 0.5018041329302987,
+  "dev_accuracy": 0.50576396106964,
+  "dev_accuracy_palabras": 0.50576396106964
+}

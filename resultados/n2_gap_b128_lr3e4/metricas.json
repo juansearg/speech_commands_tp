@@ -1,0 +1,14 @@
+{
+  "run_id": "n2_gap_b128_lr3e4",
+  "modelo": "n2_gap",
+  "params": 29796,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "seg": 2626.282129764557,
+  "epocas_entrenadas": 60,
+  "dev_f1_macro": 0.6083967451719705,
+  "dev_f1_weighted": 0.6243011075792595,
+  "dev_accuracy": 0.6306340357176604,
+  "dev_accuracy_palabras": 0.6306340357176604
+}

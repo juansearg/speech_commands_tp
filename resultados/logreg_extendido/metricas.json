@@ -1,0 +1,11 @@
+{
+  "run_id": "logreg_extendido",
+  "modelo": "logreg",
+  "params": 2835,
+  "seg": 32.52723526954651,
+  "dev_f1_macro": 0.568225244838158,
+  "dev_f1_weighted": 0.5742558318690002,
+  "dev_accuracy": 0.5760653878862326,
+  "dev_accuracy_palabras": 0.5760653878862326,
+  "features": "extendidas"
+}
