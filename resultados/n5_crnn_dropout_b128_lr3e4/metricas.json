@@ -1,0 +1,14 @@
+{
+  "run_id": "n5_crnn_dropout_b128_lr3e4",
+  "modelo": "n5_crnn_dropout",
+  "params": 413172,
+  "seg": 5535.742542266846,
+  "dev_f1_macro": 0.9188846003427412,
+  "dev_f1_weighted": 0.9250757180809602,
+  "dev_accuracy": 0.9250685060946802,
+  "dev_accuracy_palabras": 0.9250685060946802,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "epocas_entrenadas": 35
+}

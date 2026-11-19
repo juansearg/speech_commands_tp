@@ -112,7 +112,9 @@ python train_model.py --modelo n4_crnn --run-id n4_crnn_b128_lr3e4 --evaluate-on
 | `n1_cnn_min` | CNN mínima, con un bloque convolucional |
 | `n2_cnn` | CNN con tres capas convolucionales y cabeza densa |
 | `n3_cnn` | CNN regularizada con tres bloques, BatchNorm y Dropout |
-| `n4_crnn` | CNN + GRU (modelo final) |
+| `n4_crnn` | CNN + GRU (modelo base final) |
+| `n5_crnn_dropout` | N4 con Dropout 0.4 |
+| `n6_crnn_conv` | N5 con un tercer bloque convolucional |
 | `logreg_basico` | Regresión logística con features básicas |
 | `logreg_extendido` | Regresión logística con features extendidas |
 

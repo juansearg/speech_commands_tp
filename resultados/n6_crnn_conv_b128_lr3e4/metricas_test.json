@@ -1,0 +1,18 @@
+{
+  "run_id": "n6_crnn_conv_b128_lr3e4",
+  "modelo": "n6_crnn_conv",
+  "params": 431860,
+  "seg": 0.0,
+  "dev_f1_macro": 0.9324163184995748,
+  "dev_f1_weighted": 0.9380515538251112,
+  "dev_accuracy": 0.9380610412926391,
+  "dev_accuracy_palabras": 0.9380610412926391,
+  "test_f1_macro": 0.8625229745711888,
+  "test_f1_weighted": 0.9591398627633405,
+  "test_accuracy": 0.9057259713701431,
+  "test_accuracy_palabras": 0.9881749219098617,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "epocas_entrenadas": null
+}

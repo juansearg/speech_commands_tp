@@ -1,0 +1,14 @@
+{
+  "run_id": "n6_crnn_conv_b128_lr3e4",
+  "modelo": "n6_crnn_conv",
+  "params": 431860,
+  "seg": 3508.794867038727,
+  "dev_f1_macro": 0.9324163184995748,
+  "dev_f1_weighted": 0.9380515538251112,
+  "dev_accuracy": 0.9380610412926391,
+  "dev_accuracy_palabras": 0.9380610412926391,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "epocas_entrenadas": 26
+}
