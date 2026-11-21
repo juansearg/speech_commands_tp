@@ -2,13 +2,14 @@
   "run_id": "n0_mlp_b128_lr3e4",
   "modelo": "n0_mlp",
   "params": 8196004,
+  "seg": 2806.981202363968,
+  "dev_f1_macro": 0.7794477008574627,
+  "dev_f1_weighted": 0.7881359849596515,
+  "dev_accuracy": 0.7882925446470755,
+  "dev_accuracy_palabras": 0.7882925446470755,
   "batch": 128,
   "lr": 0.0003,
   "seed": 42,
-  "seg": 1186.2588906288147,
-  "epocas_entrenadas": 24,
-  "dev_f1_macro": 0.7839657817488589,
-  "dev_f1_weighted": 0.7914895450049642,
-  "dev_accuracy": 0.7917414721723519,
-  "dev_accuracy_palabras": 0.7917414721723519
+  "split": "random",
+  "epocas_entrenadas": 23
 }
