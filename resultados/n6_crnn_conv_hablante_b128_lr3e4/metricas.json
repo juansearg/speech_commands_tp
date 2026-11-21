@@ -1,0 +1,19 @@
+{
+  "run_id": "n6_crnn_conv_hablante_b128_lr3e4",
+  "modelo": "n6_crnn_conv",
+  "params": 431860,
+  "seg": 2389.362110376358,
+  "dev_f1_macro": 0.9205861279554105,
+  "dev_f1_weighted": 0.927335832253755,
+  "dev_accuracy": 0.9271297672114909,
+  "dev_accuracy_palabras": 0.9271297672114909,
+  "test_f1_macro": 0.9386425732211486,
+  "test_f1_weighted": 0.9445554110775798,
+  "test_accuracy": 0.9443063152660368,
+  "test_accuracy_palabras": 0.9443063152660368,
+  "batch": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "split": "hablante",
+  "epocas_entrenadas": 26
+}

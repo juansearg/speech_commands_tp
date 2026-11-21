@@ -49,14 +49,21 @@ class GeneradorLotesHDF5(tf.keras.utils.Sequence):
         return X_lote, self.etiquetas[start:end]
 
 
-def crear_generadores(base_dir, batch_size=128):
+def crear_generadores(base_dir, batch_size=128, split="random"):
     base_dir = Path(base_dir)
-    z = np.load(base_dir / "preprocesados" / "split.npz", allow_pickle=True)
     with open(base_dir / "preprocesados" / "norm.json", encoding="utf-8") as f:
         norm = json.load(f)
 
     mu, sd = norm["mu"], norm["sd"]
-    data = base_dir / "data"
+    if split == "hablante":
+        z = np.load(
+            base_dir / "preprocesados" / "hablante" / "split.npz",
+            allow_pickle=True,
+        )
+        data = base_dir / "data" / "hablante"
+    else:
+        z = np.load(base_dir / "preprocesados" / "split.npz", allow_pickle=True)
+        data = base_dir / "data"
 
     train_gen = GeneradorLotesHDF5(
         data / "X_train_spec.h5", z["y_tr_num"], batch_size, mu, sd,

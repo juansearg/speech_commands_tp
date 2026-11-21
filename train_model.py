@@ -51,6 +51,7 @@ def parse_args():
     p.add_argument("--lr", type=float, default=3e-4)
     p.add_argument("--epochs", type=int, default=60)
     p.add_argument("--run-id", required=True)
+    p.add_argument("--split", default="random", choices=["random", "hablante"])
     p.add_argument("--test", action="store_true")
     p.add_argument("--evaluate-only", action="store_true")
     p.add_argument("--seed", type=int, default=42)
@@ -109,6 +110,7 @@ def main():
     train_gen, dev_gen, test_gen, norm = crear_generadores(
         base_dir=base_dir,
         batch_size=args.batch,
+        split=args.split,
     )
 
     clases = list(norm["classes"])
@@ -200,6 +202,7 @@ def main():
             "batch": args.batch,
             "lr": args.lr,
             "seed": args.seed,
+            "split": args.split,
             "epocas_entrenadas": int(len(hist.history["loss"])) if hist else None,
         },
     )
